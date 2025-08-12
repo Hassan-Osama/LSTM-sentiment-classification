@@ -46,7 +46,9 @@
 
 ## Data Exploration
 
-### The Data has two columns "review" and "sentiment"
+### The Data has two columns
+* review
+* sentiment
 
 ### Sentiment Distribution
 ![alt text](https://github.com/Hassan-Osama/LSTM-sentiment-classification/blob/main/figures/sentimen_distribution.png?raw=true)
