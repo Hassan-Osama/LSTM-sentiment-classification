@@ -61,27 +61,13 @@
 ---
 
 ## Training and Validation Scores
-Training epoch: 1  
-validating epoch: 1  
-Epoch 1/5 | Train Loss: 0.6923, Acc: 0.5077, F1: 0.4896 | Val Loss: 0.6917, Acc: 0.5062, F1: 0.2069  
-Best model saved with val F1: 0.2069  
-______________  
-Training epoch: 2  
-validating epoch: 2  
-Epoch 2/5 | Train Loss: 0.5887, Acc: 0.6518, F1: 0.6049 | Val Loss: 0.3400, Acc: 0.8610, F1: 0.8574  
-Best model saved with val F1: 0.8574  
-______________  
-Training epoch: 3  
-validating epoch: 3  
-Epoch 3/5 | Train Loss: 0.2692, Acc: 0.8936, F1: 0.8938 | Val Loss: 0.2679, Acc: 0.8930, F1: 0.8948  
-Best model saved with val F1: 0.8948  
-______________  
-Training epoch: 4  
-validating epoch: 4  
-Epoch 4/5 | Train Loss: 0.1596, Acc: 0.9421, F1: 0.9420 | Val Loss: 0.2892, Acc: 0.8874, F1: 0.8860  
-______________  
-Training epoch: 5  
-validating epoch: 5  
-Epoch 5/5 | Train Loss: 0.0896, Acc: 0.9717, F1: 0.9717 | Val Loss: 0.3228, Acc: 0.8866, F1: 0.8888  
-______________
+| Epoch | Train Loss | Train Acc | Train F1 | Val Loss | Val Acc | Val F1  | Best Model Saved |
+|-------|------------|-----------|----------|----------|---------|---------|------------------|
+| 1     | 0.6923     | 0.5077    | 0.4896   | 0.6917   | 0.5062  | 0.2069  | Yes              |
+| 2     | 0.5887     | 0.6518    | 0.6049   | 0.3400   | 0.8610  | 0.8574  | Yes              |
+| 3     | 0.2692     | 0.8936    | 0.8938   | 0.2679   | 0.8930  | 0.8948  | Yes              |
+| 4     | 0.1596     | 0.9421    | 0.9420   | 0.2892   | 0.8874  | 0.8860  | No               |
+| 5     | 0.0896     | 0.9717    | 0.9717   | 0.3228   | 0.8866  | 0.8888  | No               |
+
+---
 
