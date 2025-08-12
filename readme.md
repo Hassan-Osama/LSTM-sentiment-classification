@@ -44,3 +44,19 @@
 
 ---
 
+## Data Exploration
+
+### The Data has two columns **review** and **sentiment**
+
+### Sentiment Distribution
+![alt text](https://github.com/Hassan-Osama/LSTM-sentiment-classification/blob/main/figures/sentimen_distribution.png?raw=true)
+
+### Review length distribution
+![alt text](https://github.com/Hassan-Osama/LSTM-sentiment-classification/blob/main/figures/review_length_distribution.png?raw=true)
+
+### Word Cloud
+![alt text](https://github.com/Hassan-Osama/LSTM-sentiment-classification/blob/main/figures/positive_reviews_word_cloud.png?raw=true)
+
+![alt text](https://github.com/Hassan-Osama/LSTM-sentiment-classification/blob/main/figures/negative_reviews_word_cloud.png?raw=true)
+
+---
