@@ -42,6 +42,9 @@
 * validate each epoch
 * Save the model in modles every epoch if the F1 score of the validation(to prevent saving an overfitted model) is higher than the highest model we encountered
 
+### 7. Predicting the sentiment of a single review (inference.py)
+* Takes a text review and returns the sentiment and the sentiment distribution percentage
+
 ---
 
 ## Data Exploration
@@ -73,3 +76,19 @@
 
 ---
 
+## Streamlit
+![alt text](https://github.com/Hassan-Osama/LSTM-sentiment-classification/blob/main/figures/1.png?raw=true)
+![alt text](https://github.com/Hassan-Osama/LSTM-sentiment-classification/blob/main/figures/2.png?raw=true)
+
+---
+
+## How to use it
+* Clone the repo
+* Download the dependencies in the requirements.txt
+* Head to the root directory and run the next command
+```bash
+streamlit run app.py
+```
+* head to the locale host and type the review you want to classify
+
+---

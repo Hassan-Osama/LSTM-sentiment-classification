@@ -33,6 +33,6 @@ class LSTMSentimentClassifier(nn.Module):
             hidden = hidden[-1]
         
         out = self.fc(hidden)
-        out = self.sigmoid(out).squeeze(1)
-        return out
+        out = self.sigmoid(out)
+        return out.view(-1)
 
